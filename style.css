@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  font-family: 'Verdana', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  color: #00ffff;
+  font-size: 2.5em;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #00ffcc;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffcc;
+  margin-bottom: 20px;
+}
+
+canvas {
+  background-color: #111;
+  border: 3px solid #00ffff;
+  display: none;
+  margin: auto;
+}
+
+#gameOverText {
+  display: none;
+  font-size: 1.5em;
+  color: #ff4d4d;
+}
